@@ -37,3 +37,5 @@ prompt> make qemu
 
 - How to quit xv6? `Ctrl+A` then `X`
 - Reference: https://pdos.csail.mit.edu/6.828/2012/xv6/book-rev7.pdf
+- User space utilities and libraries are under `/user` folder
+- Kernel space implementations are under `/kernel` folder
