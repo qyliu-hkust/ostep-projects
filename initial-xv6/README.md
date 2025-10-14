@@ -83,7 +83,7 @@ this when debugging (assuming you ever make mistakes, that is), e.g.:
 
 ```sh
 prompt> cd src/
-prompt> make -f Makefile.test qemu-nox
+prompt> make -f Makefile.test qemu
 ```
 
 You can suppress the repeated building of xv6 in the tests with the
@@ -97,3 +97,9 @@ The other usual testing flags are also available. See [the testing
 README](https://github.com/remzi-arpacidusseau/ostep-projects/blob/master/tester/README.md)
 for details.
 
+# About Your Report
+You need to answer the following questions:
+
+- What is the workflow to call a syscall like `read()`?
+- What are registers `A7` and `A0` used for?
+- (Optional) How can we correctly support concurrent reads? 
