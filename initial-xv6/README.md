@@ -8,7 +8,7 @@ processors. It was developed at MIT and is a small and relatively
 understandable OS and thus an excellent focus for simple projects.
 
 This first project is just a warmup, and thus relatively light on work. The
-goal of the project is simple: to add a system call to xv6. Your system call,
+goal of the project is simple: to add a system call to xv6. Your system
 **getreadcount()**, simply returns how many times that the **read()** system
 call has been called by user processes since the time that the kernel was
 booted. 
@@ -20,12 +20,15 @@ video](https://www.youtube.com/watch?v=vR6z2QGcoo8), you might want to read
 this [background
 section](https://github.com/remzi-arpacidusseau/ostep-projects/blob/master/initial-xv6/background.md). 
 
+
 More information about xv6, including a very useful book written by the MIT
 folks who built xv6, is available
 [here](https://pdos.csail.mit.edu/6.828/2017/xv6.html). Do note, however, that
 we use a slightly older version of xv6 (for various pedagogical reasons), and
 thus the book may not match our code base exactly.
 
+
+NOTE: Be careful that the aforementioned materials are for xv6 not for xv6-riscv (but fortunately they are similar)!! 
 
 ## Your System Call
 
