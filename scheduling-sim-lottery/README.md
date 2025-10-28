@@ -1,6 +1,6 @@
 # Project: Implementing a Lottery Scheduler
 
-**Objective.** Implement and evaluate a (lottery scheduler)[https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf] — a probabilistic CPU scheduler that allocates CPU time in proportion to the number of tickets each process holds. 
+**Objective.** Implement and evaluate a [lottery scheduler](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf) — a probabilistic CPU scheduler that allocates CPU time in proportion to the number of tickets each process holds. 
 
 ---
 
