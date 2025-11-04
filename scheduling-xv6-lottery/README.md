@@ -48,7 +48,7 @@ create a child process, the child should also get 10 tickets.
 
 You'll also need to figure out how to generate random numbers in the kernel;
 some searching should lead you to a simple pseudo-random number generator,
-which you can then include in the kernel and use as appropriate.
+which you can then include in the kernel and use as appropriate (FYI: actually I provide one). 
 
 Finally, you'll need to understand how to fill in the structure `pstat` in the
 kernel and pass the results to user space. The structure should look like what
