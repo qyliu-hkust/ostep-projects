@@ -87,7 +87,43 @@ might have 30 tickets, process B 20, and process C 10). The graph is likely to
 be pretty boring, but should clearly show that your lottery scheduler works as
 desired.
 
+## Project Report Requirements
+
+### Report 1
+Before or during implementation, you must read and understand the following parts of xv6.
+In your report, briefly (2–5 sentences per point) explain what each part does in your own words.
+
+Before or during implementation, you must read and understand the following parts of xv6.
+In your report, briefly (2–5 sentences per point) explain what each part does **in your own words**.
+
+**Process Management and Scheduling**
+
+* **`kernel/proc.h`**
+
+  * Understand `struct proc` and the global process table.
+  * Explain process states: `UNUSED`, `EMBRYO`, `SLEEPING`, `RUNNABLE`, `RUNNING`, `ZOMBIE`.
+
+* **`kernel/proc.c`**
+
+  * `userinit()`: how the first user process is created.
+  * `fork()`: how child processes are allocated and added to the scheduler.
+  * `exit()` / `wait()`: process termination and cleanup.
+  * `scheduler()`: the main scheduling loop (currently round-robin).
+  * `yield()`, `sleep()`, `wakeup()`: cooperative scheduling and synchronization.
+
+**Context Switching**
+
+* **`kernel/swtch.S`**
+
+  * How registers are saved and restored during a context switch.
+
+* **`kernel/trap.c` / `kernel/kernelvec.S`**
+
+  * How timer interrupts trigger scheduling (e.g., via `yield()` in `usertrap()`).
 
 
 
+### Report 2
+
+Discuss how you implement the lottery scheduler in xv6 and include a graph described above. 
 
