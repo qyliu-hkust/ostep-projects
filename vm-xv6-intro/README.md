@@ -8,7 +8,7 @@ levels of some pages in a process's address space.
 
 ## Null-pointer Dereference
 
-In xv6, the VM system uses a simple two-level page table as discussed in
+In xv6, the VM system uses a simple multi-level page table as discussed in
 class. As it currently is structured, user code is loaded into the very first
 part of the address space. Thus, if you dereference a null pointer, you will
 not see an exception (as you might expect); rather, you will see whatever code
