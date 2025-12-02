@@ -1,4 +1,4 @@
-## **Experiment Report Requirements: Measuring TLB Size via Program Testing**
+## **Experiment Report Requirements: Measuring TLB Size**
 
 ### **1. Introduction**
 
