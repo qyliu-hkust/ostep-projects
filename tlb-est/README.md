@@ -1,7 +1,3 @@
-Below is a concise, clear **experiment report requirement** in English that you can give to your students.
-
----
-
 ## **Experiment Report Requirements: Measuring TLB Size via Program Testing**
 
 ### **1. Introduction**
